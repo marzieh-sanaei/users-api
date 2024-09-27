@@ -30,7 +30,7 @@ class Users extends React.Component {
           ) : (
             users.map((user) => {
               return (
-                <div className="col-4 text-center p-5">
+                <div className="col-lg-4 col-md-6 text-center p-5">
                   <div className="wrapper-card rounded">
                     <img
                       src={user.avatar}
